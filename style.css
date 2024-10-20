@@ -184,3 +184,143 @@
         z-index: 1;
     }
 }
+
+
+/* HERO MAIN  */
+
+
+/* -------------------------------advantages--------------------------------- */
+.adv {
+    margin: 8% 0px 5% 0px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 600px) {
+    .adv {
+        margin-top: 20%;
+    }
+}
+
+.advx {
+    text-align: center;
+    padding: 0px 24%;
+}
+
+
+.serAdv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 28px;
+    justify-content: center;
+    padding: 0 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+@media (max-width: 850px) {
+    .serAdv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 950px) and (min-width: 850px) {
+    .serAdv {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .serAdv {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .mainX {
+        width: 100%;
+        max-width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+/* ABOUT US */
+
+
+
+.sharp-line {
+    width: 97%;
+    height: 4px;
+    margin-top: 6%;
+    background: linear-gradient(to right,
+            transparent,
+            rgb(198, 199, 201) 50%,
+            transparent);
+    position: relative;
+}
+
+
+
+.pop {
+
+    float: right;
+
+}
+
+
+.non {
+    position: relative;
+    float: right;
+}
+
+.pol {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+
+}
+
+.neww {
+    float: right;
+    margin-top: 2%;
+    padding-right: 4px;
+
+}
+
+.para {
+    margin-top: 8%;
+    padding: 2px 12px 2px 12px;
+    width: auto;
+    height: 400px;
+    margin-left: 35px;
+    background: rgb(242, 242, 242);
+}
+
+.abBut {
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding: 8px 18px;
+    background-color: rgb(254, 189, 25);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* OUR SERVICES */
+
+.services {
+    width: auto;
+    height: 200px;
+    background-color: aqua;
+}
