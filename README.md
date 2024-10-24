@@ -1,6 +1,6 @@
 This is a final project of HTML & CSS .
 
-![alt](https://https://github.com/MianMohsinFarrukh/Final_Assignment_of_CSS/blob/bb95988d05318047e56755bd3287db17aaa5a1da/css.jpg)
+![alt](https://github.com/MianMohsinFarrukh/Final_Assignment_of_CSS/blob/467458ed58dc2f4eae24194821fdcc6edc39b90f/css.jpg)
 
 
 ## Deploy on Vercel
